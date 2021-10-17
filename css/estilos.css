@@ -22,7 +22,7 @@ body {
 }
 #foto {
   width: 50%;
-  height: 50VH;
+  height: 50vh;
 }
 #cabecera #tagline {
   padding: 0 0 0 1em;
@@ -48,4 +48,10 @@ body {
   color: white;
   text-align: center;
   padding: 0.5em;
+}
+
+@media (max-width: 640px) {
+  #foto {
+    width: 100%;
+  }
 }
